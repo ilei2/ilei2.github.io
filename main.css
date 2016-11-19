@@ -13,6 +13,10 @@ p{
   font-size: 20px;
 }
 
+a{
+  color: black;
+}
+
 header .row {
   display: flex;
   align-items: center;
@@ -28,10 +32,11 @@ header nav li{
 .jumbotron {
   display: flex;
   align-items: center;
+  text-align: center;
   background-image: url('http://www.pixelstalk.net/wp-content/uploads/2016/03/Beautiful-Snowy-Mountain-Wallpaper-HD.jpg');
   background-size: cover;
   background-color: lightblue;
-  color: #ffffff;
+  color: black;
   height: 500px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
