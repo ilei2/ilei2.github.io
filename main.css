@@ -1,12 +1,16 @@
 body {
   font-family: 'Kalam', serif;
-  font-size: 24px;
+  font-size: 28px;
   text-align: center;
   background-color: lightblue;
 }
 
 h1{
   font-size: 60px;
+}
+
+p{
+  font-size: 20px;
 }
 
 header .row {
@@ -24,7 +28,7 @@ header nav li{
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('mountain.jpg');
+  background-image: url('http://www.pixelstalk.net/wp-content/uploads/2016/03/Beautiful-Snowy-Mountain-Wallpaper-HD.jpg');
   background-size: cover;
   background-color: lightblue;
   color: #ffffff;
@@ -34,4 +38,6 @@ header nav li{
 
 footer {
   font-size: 12px;
+  text-align: center;
+  padding: 20px;
 }
