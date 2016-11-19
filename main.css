@@ -16,6 +16,12 @@ p{
 a{
   color: black;
 }
+a:link{
+  text-decoration: none;
+}
+a:hover{
+  color: cornflowerblue;
+}
 
 header .row {
   display: flex;
@@ -41,8 +47,15 @@ header nav li{
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
+.block{
+  padding: 100px;
+}
+
 footer {
   font-size: 12px;
   text-align: center;
   padding: 20px;
+}
+footer a:link{
+  text-decoration: underline;
 }
