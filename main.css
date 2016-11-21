@@ -9,15 +9,8 @@ body {
 .block{
   font-family: 'Merriweather', serif;
   padding: 150px;
-  border-top: 1px solid grey;
+  border-top: 2px solid grey;
   margin: 10px;
-}
-
-.block-content-wrap {
-  width: 50%;
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
 }
 
 .block-title{
@@ -25,18 +18,6 @@ body {
   font-size: 40px;
   color: #003456;
   position: relative;
-}
-
-.block-left,.block-right{
-  height: 50%;
-  text-align: left;
-}
-
-.block-left{
-  float: left;
-}
-.block-right{
-  float: right;
 }
 
 h1{
@@ -91,6 +72,7 @@ footer {
   text-align: center;
   padding: 20px;
   text-decoration: none;
+  position: relative;
 }
 footer p{
   font-size: 14px;
