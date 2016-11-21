@@ -6,12 +6,49 @@ body {
   color: black;
 }
 
+.block{
+  font-family: 'Merriweather', serif;
+  padding: 150px;
+  border-top: 1px solid grey;
+  margin: 10px;
+}
+
+.block-content-wrap {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+
+.block-title{
+  font-family: 'Kalam', serif;
+  font-size: 40px;
+  color: #003456;
+  position: relative;
+}
+
+.block-left,.block-right{
+  height: 50%;
+  text-align: left;
+}
+
+.block-left{
+  float: left;
+}
+.block-right{
+  float: right;
+}
+
 h1{
   font-size: 60px;
 }
 
+li{
+  font-size: 30px;
+}
+
 p{
-  font-size: 20px;
+  font-size: 18px;
 }
 
 a{
@@ -30,7 +67,7 @@ header .row {
 }
 
 header nav li{
-  font-size: 20px;
+  font-size: 30px;
   display: inline;
   margin: 0;
   padding: 0 20px;
@@ -48,15 +85,17 @@ header nav li{
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
-.block{
-  padding: 100px;
-}
-
 footer {
-  font-size: 12px;
+  border-top: 1px solid grey;
+  font-size: 14px;
   text-align: center;
   padding: 20px;
+  text-decoration: none;
 }
+footer p{
+  font-size: 14px;
+}
+
 footer a:link{
-  text-decoration: underline;
+  text-decoration: none;
 }
