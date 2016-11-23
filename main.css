@@ -3,6 +3,7 @@
 }
 
 .header{
+  position: relative;
   display: flex;
   font-family: 'Kalam', serif;
   padding: 25px;
