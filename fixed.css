@@ -1,0 +1,120 @@
+body{
+  position: relative;
+  margin:0px;
+  background: #d3dbde;
+}
+
+.header-name {
+  width: 100%;
+  position: fixed;
+  background: lightblue;
+  height: 100px;
+  top:0px;
+  font-size: 60px;
+  border-bottom: 2px solid grey;
+}
+
+#head-name{
+  font-family: 'Kalam', serif;
+  text-align: center;
+  padding: 5px;
+}
+
+.header-cont {
+  width: 100%;
+  position: fixed;
+  background: #9BC0CC;
+  top:100px;
+}
+.header {
+  display: block;
+  height: 50px;
+  width:960px;
+  margin:0px auto;
+}
+
+.header-list{
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Kalam', serif;
+  height: 50px;
+  margin: 0px auto;
+}
+
+.header ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.header li{
+  display: inline-block;
+  text-align: left;
+  width: 100px;
+  margin: 0 0 0 25px;
+  padding: 10px;
+}
+
+a{
+  color: #003456;
+}
+a:link{
+  text-decoration: none;
+}
+a:hover{
+  color: #8a49d1;
+}
+
+
+#home{
+  text-align: center;
+}
+
+.block{
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  font-size: 16px;
+  width: 850px;
+  background: white;
+  border: 1px solid grey;
+  height: 350px;
+  padding: 20px;
+  margin: 75px auto;
+}
+
+.block-skill{
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  font-size: 16px;
+  width: 850px;
+  background: white;
+  border: 1px solid grey;
+  height: 850px;
+  padding: 20px;
+  margin: 75px auto;
+}
+
+.block-title{
+  font-family: 'Kalam', serif;
+  font-size: 36px;
+  color: #003456;
+}
+
+.block-p{
+  width: 500px;
+  display: inline-block;
+  text-align: center;
+}
+
+.school{
+  display: inline-block;
+  line-height: 200px;
+}
+
+.content {
+  width:860px;
+  border: 1px solid #CCC;
+  height: 1000px;
+  margin: 70px auto;
+  padding: 75px;
+}
