@@ -1,7 +1,7 @@
 body{
   position: relative;
   margin:0px;
-  background: #d3dbde;
+  background: lightblue;
 }
 
 .header-name {
@@ -17,13 +17,14 @@ body{
 #head-name{
   font-family: 'Kalam', serif;
   text-align: center;
+  color: #003456;
   padding: 5px;
 }
 
 .header-cont {
   width: 100%;
   position: fixed;
-  background: #9BC0CC;
+  background: lightblue;
   top:100px;
 }
 .header {
