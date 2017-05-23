@@ -1,48 +1,269 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-  <meta charset="utf-8" />
-  <link href="https://fonts.googleapis.com/css?family=Kalam"
-  rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather"
-  rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="fixed.css">
-</head>
-<body>
-  <div class="header-name">
-    <div id="head-name" class="header">
-      Ivy Lei
-    </div>
-  </div>
+  <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+   <!-- OPTIONAL: description -->
+   <meta name="description" content="">
+   <!-- OPTIONAL: author -->
+   <meta name="author" content="">
+   <link rel="shortcut icon" href="favicon.ico">
+   <link rel="apple-touch-icon" href="icon.png" />
+  <title>Ivy Lei</title>
+  <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
-  <div class="header-cont">
-    <div class="header">
-      <div class="header-list">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="project2.html">Projects</a></li>
-          <li><a href="IvyLei.pdf"
-            target="_blank">Resume</a></li>
-          <li><a href="skills.html">Skills</a></li>
-          <li><a href="edu.html">Education</a></li>
-          <li><a href="contact2.html">Contact</a></li>
+    <!-- Link the main.css stylesheet -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- OPTIONAL: Google Fonts (don't forget to edit main.css also) -->
+    <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <div class="header" id="headerwrap">
+    <div class="container">
+      <div class="col-lg-12">
+        <h1>Ivy Lei</h1>
+        <h3>UIUC |
+          <a href="mailto:ilei2@illinois.edu">ilei2@illinois.edu</a>
+        </h3>
       </div>
     </div>
   </div>
 
-  <br><br><br><br><br><br>
-
-  <div id="home" class="block">
-    <div class="block-title">
-      About
-    </div>
-    <div class="block-p">
-      <p>Aspiring software engineer expecting to graduate in December 2017.
-      Interested in statistical analysis and software development.</p>
-      <p>Please see <a href="project2.html">Projects</a> for examples of completed works.</p>
-      <p>Please refer to Education and Skills to get a summary of technical background.
-      <p>For more information, contact <a href="contact2.html">Ivy Lei</a>.</p>
+  <section id="about" name="about"></section>
+  <div class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-1">
+          <h3>About</h3>
+        </div>
+        <div class="col-lg-6">
+          <p>Statistics and Computer Science major in University of Illinois.
+          Interested in Data Analytics and Software Development.</p>
+          <p>Other interests: Natural Language Processing, Machine Learning</p>
+        </div>
+        <div class="col-lg-3">
+          <p>
+            <a href="IvyLei.pdf" target="_blank"><sm>Resume</sm></a>
+            <br>
+            <a href="https://github.com/ilei2"><sm>My Github</sm></a>
+          </p>
+        </div>
+      </div>
     </div>
   </div>
+
+<section id="resume" name="resume"></section>
+  <!-- Education Section -->
+  <div class="container desc">
+    <div class="row">
+        <div class="col-lg-2 col-lg-offset-1">
+            <h3>Education</h3>
+        </div>
+        <!-- Education Line 1 -->
+        <div class="col-lg-6">
+            <p><t>Bachelor of Science in Statistics and Computer Science</t><br/>
+              University of Illinois at Urbana-Champaign
+              <!-- More info here? -->
+            </p>
+        </div>
+        <div class="col-lg-3">
+            <p><sm>Expected December 2017</sm><br/>
+            </p>
+        </div>
+    </div>
+    <br>
+    <hr>
+  </div>
+
+  <!-- Work Section -->
+  <!-- Allstate -->
+  <div class="container desc">
+    <div class="row">
+        <div class="col-lg-2 col-lg-offset-1">
+            <h3>Work</h3>
+        </div>
+        <div class="col-lg-6">
+            <p class="tight"><t>Allstate Insurance Company</t><br/>
+              Application Developer Intern <br/>
+            </p>
+            <ul>
+              <li>Claim Technology Services</li>
+            </ul>
+        </div>
+        <div class="col-lg-3">
+            <p><sm>Current<br/>
+              Northbrook, IL </sm></p>
+        </div>
+    </div>
+  </div>
+
+  <!-- Arris Group -->
+  <div class="container desc">
+    <div class="row">
+        <div class="col-lg-2 col-lg-offset-1">
+        </div>
+        <div class="col-lg-6">
+            <p class="tight"><t>Arris Group</t><br/>
+              Software Engineering Intern <br/>
+            </p>
+            <ul>
+              <li>Optimized stack memory utilization by rewriting
+               recursive algorithms into iterative logic</li>
+               <li>Tested revised methods in CMTS desktop simulated system</li>
+               <li>Submitted changes that are implemented large scale for 2,000 modems</li>
+            </ul>
+        </div>
+        <div class="col-lg-3">
+            <p><sm>Summer 2016<br/>
+              Lisle, IL </sm></p>
+        </div>
+    </div>
+    <br>
+    <hr>
+  </div>
+
+  <!-- Activities -->
+  <div class="container desc">
+    <div class="row">
+      <div class="col-lg-2 col-lg-offset-1">
+        <h3>Activities</h3>
+      </div>
+      <div class="col-lg-6">
+        <p class="tight"><t>Women in Computer Science</t><br/>
+          Active Member<br/>
+        </p>
+        <ul>
+          <li>Participate in social events and tech talks</li>
+          <li>Volunteer and mentor in workshops including <a href="http://wcs.illinois.edu/chictech/">ChicTech Retreat</a> at UIUC</li>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <hr>
+  </div>
+
+  <!-- Projects Section -->
+  <!-- Doggr -->
+  <div class="container desc">
+    <div class="row">
+        <div class="col-lg-2 col-lg-offset-1">
+          <h3>Projects</h3>
+        </div>
+        <div class="col-lg-6">
+            <p class="tight"><t>Doggr</t><br/>
+              Team Member <br/>
+            </p>
+            Doggr is a group project completed in CS 411 (Database Systems).
+            The application matches users with various shelter dog breeds
+             based on user preferences.
+            The project is localized to pet shelters in Illinois.
+            <ul>
+              <li>Skills used: MySQL, PHP, Python, rescueme.org, petwave.com</li>
+              <li>Parsed the Wikipedia Dataset using Python, PHP, and MySQL</li>
+              <li>Utilized Google Distance API to rank shelter dogs by distance</li>
+              <li>Created a ranking system that ranks shelter dogs by preference</li>
+              <li>More information <a href="https://github.com/ilei2/doggr"> here </a></li>
+              <li>Demo hosted <a href="http://cs411-doggr.herokuapp.com/"> here</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-3">
+            <p><sm>Fall 2016<br/>
+              Urbana-Champaign, IL </sm></p>
+        </div>
+    </div>
+  </div>
+
+  <!-- Music -->
+  <div class="container desc">
+    <div class="row">
+        <div class="col-lg-2 col-lg-offset-1">
+        </div>
+        <div class="col-lg-6">
+            <p class="tight"><t>Music Visualization</t><br/>
+            </p>
+            The music visualizer generates animation based on the frequencies
+             of the music.
+             The imagery is rendered in real time and synchronizes with
+             the music as it is played.
+            <ul>
+              <li>Skills used: D3JS, Web Audio API, HTML, CSS, Javascript</li>
+              <li>More information <a href="https://github.com/ilei2/music/"> here </a></li>
+              <li>Demo hosted <a href="http://ivylei.me/music/"> here</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-3">
+            <p><sm>Fall 2016<br/>
+              Urbana-Champaign, IL </sm></p>
+        </div>
+    </div>
+  </div>
+
+  <!-- Flappy Bird -->
+  <div class="container desc">
+    <div class="row">
+        <div class="col-lg-2 col-lg-offset-1">
+        </div>
+        <div class="col-lg-6">
+            <p class="tight"><t>Imitation Flappy Bird</t><br/>
+            </p>
+            A fun project that mimics the gameplay of Flappy Bird<br/>
+            (Just press Spacebar to jump and avoid the pipes!)
+            <ul>
+              <li>Skills used: P5JS, HTML, CSS, Javascript</li>
+              <li>More information <a href="https://github.com/ilei2/flappy-bird/"> here </a></li>
+              <li>Demo hosted <a href="http://ivylei.me/flappy-bird/"> here</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-3">
+            <p><sm>Spring 2017<br/>
+              Urbana-Champaign, IL </sm></p>
+        </div>
+    </div>
+    <br>
+  </div>
+
+
+  <section id="contact" name="contact"></section>
+    <!-- Footer -->
+    <div id="footwrap" class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 col-lg-offset-1">
+            <h3>Contact</h3>
+          </div>
+          <!-- Email -->
+          <div class="col-lg-6">
+              <p><t>Email</t><br/>
+                <a href="mailto:ilei2@illinois.edu" class="mail">ilei2@illinois.edu</a> <br/>
+              </p>
+              <!-- Address -->
+              <p><t>Address:</t><br/>
+                1306 N. Linoln Ave.<br/>
+                Urbana, IL 61801 <br/>
+                USA <br/>
+              </p>
+          </div>
+          <div class="col-lg-3">
+              <p><sm>Social Links:</sm></p>
+              <p>
+                <!-- Social Media Links -->
+                <a href="https://www.linkedin.com/in/ivylei009/" target="_blank"><i class="icon-linkedin"></i></a>
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
 </body>
 </html>
